@@ -1,0 +1,29 @@
+int DCm1=9;
+int DCm2=6;
+int DCm3=3;
+int DCm4=5;
+
+
+void setup()
+{
+  pinMode(DCm1, OUTPUT);
+  pinMode(DCm2, OUTPUT);
+  pinMode(DCm3, OUTPUT);
+  pinMode(DCm4, OUTPUT);
+  
+  
+}
+
+void loop()
+{
+  digitalWrite(DCm1,HIGH);
+  delay(1000); 
+  digitalWrite(DCm2, LOW);
+  delay(1000); 
+  
+ 
+  digitalWrite(DCm3, HIGH);
+  delay(1000); 
+  digitalWrite(DCm4, LOW);
+  delay(1000); 
+}
